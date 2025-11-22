@@ -91,7 +91,7 @@ export const ModalEditExamForm = ({ fetch, exam }: { fetch: () => Promise<void>,
                 <Fade in={open}>
                     <Box sx={style}>
                         <Typography id="transition-modal-title" variant="h5" component="h2">
-                            Nuevo cuestionario
+                            Actualizar cuestionario
                         </Typography>
                         <Box id="transition-modal-description" sx={{ mt: 2 }}>
                             <form onSubmit={handleSubmit(handleSaveCategorySubmit)}>
